@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE1BD5A8157C9BBE00138188 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1BD5A7157C9BBE00138188 /* UIKit.framework */; };
+		DE1BD5AA157C9BBE00138188 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1BD5A9157C9BBE00138188 /* Foundation.framework */; };
+		DE1BD5AC157C9BBE00138188 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1BD5AB157C9BBE00138188 /* CoreGraphics.framework */; };
+		DE1BD5B2157C9BBE00138188 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE1BD5B0157C9BBE00138188 /* InfoPlist.strings */; };
+		DE1BD5B4157C9BBE00138188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1BD5B3157C9BBE00138188 /* main.m */; };
+		DE1BD5B8157C9BBF00138188 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1BD5B7157C9BBF00138188 /* AppDelegate.m */; };
+		DE1BD5BB157C9BBF00138188 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1BD5B9157C9BBF00138188 /* MainStoryboard.storyboard */; };
+		DE1BD5BE157C9BBF00138188 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1BD5BD157C9BBF00138188 /* MasterViewController.m */; };
+		DE1BD5C1157C9BBF00138188 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1BD5C0157C9BBF00138188 /* DetailViewController.m */; };
+		DE312D7C1583B0030039B5B4 /* introduction.html in Resources */ = {isa = PBXBuildFile; fileRef = DE312D7B1583B0030039B5B4 /* introduction.html */; };
+		DE312D801583B0BA0039B5B4 /* AllWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE312D7F1583B0BA0039B5B4 /* AllWebViewController.m */; };
+		DE312D821583C5F80039B5B4 /* PreKriya.html in Resources */ = {isa = PBXBuildFile; fileRef = DE312D811583C5F80039B5B4 /* PreKriya.html */; };
+		DE312D841583D87B0039B5B4 /* Tadasana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE312D831583D87B0039B5B4 /* Tadasana.jpg */; };
+		DE3D30C4157DED3A0089F4D6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3D30C3157DED3A0089F4D6 /* MediaPlayer.framework */; };
+		DE3D30C7157DFA650089F4D6 /* iPod.m4v in Resources */ = {isa = PBXBuildFile; fileRef = DE3D30C6157DFA650089F4D6 /* iPod.m4v */; };
+		DE3D30C9157E0A850089F4D6 /* MakeUp.mov in Resources */ = {isa = PBXBuildFile; fileRef = DE3D30C8157E0A850089F4D6 /* MakeUp.mov */; };
+		DE7AB38A158470A900BC42C8 /* beforeKriyaShort.html in Resources */ = {isa = PBXBuildFile; fileRef = DE7AB389158470A900BC42C8 /* beforeKriyaShort.html */; };
+		DE7AB38D158471E400BC42C8 /* beforeKriyaLong.html in Resources */ = {isa = PBXBuildFile; fileRef = DE7AB38C158471E400BC42C8 /* beforeKriyaLong.html */; };
+		DE7AB38F158471FD00BC42C8 /* afterKriyaShort.html in Resources */ = {isa = PBXBuildFile; fileRef = DE7AB38E158471FD00BC42C8 /* afterKriyaShort.html */; };
+		DE7AB3911584721400BC42C8 /* afterKriyaLong.html in Resources */ = {isa = PBXBuildFile; fileRef = DE7AB3901584721400BC42C8 /* afterKriyaLong.html */; };
+		DE8A08BF158D8F700098DD46 /* yoga_sketch_3_T.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8A08BE158D8F700098DD46 /* yoga_sketch_3_T.png */; };
+		DE8A08C4158D9A5B0098DD46 /* 5.reverse-warrior.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8A08C3158D9A5B0098DD46 /* 5.reverse-warrior.png */; };
+		DE8A08CA158D9C910098DD46 /* yoga-posture-final_nnt.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8A08C9158D9C910098DD46 /* yoga-posture-final_nnt.png */; };
+		DEA655281587265F004EF13A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA655271587265F004EF13A /* iAd.framework */; };
+		DEA6553115879E0B004EF13A /* iAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA6553015879E0B004EF13A /* iAdViewController.m */; };
+		DEB8155E1584173D0050521A /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = DEB8155D1584173D0050521A /* main.css */; };
+		DEB8156115841B230050521A /* people_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB8156015841B230050521A /* people_@2x.png */; };
+		DEB8156315841B770050521A /* clapboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB8156215841B770050521A /* clapboard@2x.png */; };
+		DEB8156515841B8E0050521A /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB8156415841B8E0050521A /* camera@2x.png */; };
+		DEB81574158435BB0050521A /* shortKriya.html in Resources */ = {isa = PBXBuildFile; fileRef = DEB81573158435BB0050521A /* shortKriya.html */; };
+		DEB8157615843E5E0050521A /* longKriya.html in Resources */ = {isa = PBXBuildFile; fileRef = DEB8157515843E5E0050521A /* longKriya.html */; };
+		DEEB51A615A2B7AA0070545A /* Intro.m4v in Resources */ = {isa = PBXBuildFile; fileRef = DEEB51A515A2B7AA0070545A /* Intro.m4v */; };
+		DEF8866F157F28330035ED67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF8866E157F28330035ED67 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE1BD5A3157C9BBE00138188 /* iPure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1BD5A7157C9BBE00138188 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE1BD5A9157C9BBE00138188 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE1BD5AB157C9BBE00138188 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE1BD5AF157C9BBE00138188 /* iPure-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPure-Info.plist"; sourceTree = "<group>"; };
+		DE1BD5B1157C9BBE00138188 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE1BD5B3157C9BBE00138188 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE1BD5B5157C9BBE00138188 /* iPure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPure-Prefix.pch"; sourceTree = "<group>"; };
+		DE1BD5B6157C9BBE00138188 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE1BD5B7157C9BBF00138188 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE1BD5BA157C9BBF00138188 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DE1BD5BC157C9BBF00138188 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		DE1BD5BD157C9BBF00138188 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		DE1BD5BF157C9BBF00138188 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DE1BD5C0157C9BBF00138188 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DE312D7B1583B0030039B5B4 /* introduction.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = introduction.html; sourceTree = "<group>"; };
+		DE312D7E1583B0BA0039B5B4 /* AllWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllWebViewController.h; sourceTree = "<group>"; };
+		DE312D7F1583B0BA0039B5B4 /* AllWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllWebViewController.m; sourceTree = "<group>"; };
+		DE312D811583C5F80039B5B4 /* PreKriya.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PreKriya.html; sourceTree = "<group>"; };
+		DE312D831583D87B0039B5B4 /* Tadasana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tadasana.jpg; sourceTree = "<group>"; };
+		DE3D30C3157DED3A0089F4D6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DE3D30C6157DFA650089F4D6 /* iPod.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = iPod.m4v; sourceTree = "<group>"; };
+		DE3D30C8157E0A850089F4D6 /* MakeUp.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = MakeUp.mov; sourceTree = "<group>"; };
+		DE7AB389158470A900BC42C8 /* beforeKriyaShort.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = beforeKriyaShort.html; sourceTree = "<group>"; };
+		DE7AB38C158471E400BC42C8 /* beforeKriyaLong.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = beforeKriyaLong.html; sourceTree = "<group>"; };
+		DE7AB38E158471FD00BC42C8 /* afterKriyaShort.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = afterKriyaShort.html; sourceTree = "<group>"; };
+		DE7AB3901584721400BC42C8 /* afterKriyaLong.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = afterKriyaLong.html; sourceTree = "<group>"; };
+		DE8A08BE158D8F700098DD46 /* yoga_sketch_3_T.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yoga_sketch_3_T.png; sourceTree = "<group>"; };
+		DE8A08C3158D9A5B0098DD46 /* 5.reverse-warrior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5.reverse-warrior.png"; sourceTree = "<group>"; };
+		DE8A08C9158D9C910098DD46 /* yoga-posture-final_nnt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yoga-posture-final_nnt.png"; sourceTree = "<group>"; };
+		DEA655271587265F004EF13A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		DEA6552F15879E0B004EF13A /* iAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iAdViewController.h; sourceTree = "<group>"; };
+		DEA6553015879E0B004EF13A /* iAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iAdViewController.m; sourceTree = "<group>"; };
+		DEB8155D1584173D0050521A /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		DEB8156015841B230050521A /* people_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "people_@2x.png"; sourceTree = "<group>"; };
+		DEB8156215841B770050521A /* clapboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clapboard@2x.png"; sourceTree = "<group>"; };
+		DEB8156415841B8E0050521A /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		DEB81573158435BB0050521A /* shortKriya.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = shortKriya.html; sourceTree = "<group>"; };
+		DEB8157515843E5E0050521A /* longKriya.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = longKriya.html; sourceTree = "<group>"; };
+		DEEB51A515A2B7AA0070545A /* Intro.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Intro.m4v; sourceTree = "<group>"; };
+		DEF8866D157F28330035ED67 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DEF8866E157F28330035ED67 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE1BD5A0157C9BBE00138188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA655281587265F004EF13A /* iAd.framework in Frameworks */,
+				DE3D30C4157DED3A0089F4D6 /* MediaPlayer.framework in Frameworks */,
+				DE1BD5A8157C9BBE00138188 /* UIKit.framework in Frameworks */,
+				DE1BD5AA157C9BBE00138188 /* Foundation.framework in Frameworks */,
+				DE1BD5AC157C9BBE00138188 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE1BD598157C9BBD00138188 = {
+			isa = PBXGroup;
+			children = (
+				DE1BD5AD157C9BBE00138188 /* iPure */,
+				DE1BD5A6157C9BBE00138188 /* Frameworks */,
+				DE1BD5A4157C9BBE00138188 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE1BD5A4157C9BBE00138188 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE1BD5A3157C9BBE00138188 /* iPure.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE1BD5A6157C9BBE00138188 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEA655271587265F004EF13A /* iAd.framework */,
+				DE3D30C3157DED3A0089F4D6 /* MediaPlayer.framework */,
+				DE1BD5A9157C9BBE00138188 /* Foundation.framework */,
+				DE1BD5A7157C9BBE00138188 /* UIKit.framework */,
+				DE1BD5AB157C9BBE00138188 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE1BD5AD157C9BBE00138188 /* iPure */ = {
+			isa = PBXGroup;
+			children = (
+				DE1BD5B6157C9BBE00138188 /* AppDelegate.h */,
+				DE1BD5B7157C9BBF00138188 /* AppDelegate.m */,
+				DE1BD5B9157C9BBF00138188 /* MainStoryboard.storyboard */,
+				DE1BD5BC157C9BBF00138188 /* MasterViewController.h */,
+				DE1BD5BD157C9BBF00138188 /* MasterViewController.m */,
+				DEF8866D157F28330035ED67 /* ViewController.h */,
+				DEF8866E157F28330035ED67 /* ViewController.m */,
+				DE312D7E1583B0BA0039B5B4 /* AllWebViewController.h */,
+				DE312D7F1583B0BA0039B5B4 /* AllWebViewController.m */,
+				DE1BD5BF157C9BBF00138188 /* DetailViewController.h */,
+				DE1BD5C0157C9BBF00138188 /* DetailViewController.m */,
+				DEA6552F15879E0B004EF13A /* iAdViewController.h */,
+				DEA6553015879E0B004EF13A /* iAdViewController.m */,
+				DE1BD5AE157C9BBE00138188 /* Supporting Files */,
+			);
+			path = iPure;
+			sourceTree = "<group>";
+		};
+		DE1BD5AE157C9BBE00138188 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB51A515A2B7AA0070545A /* Intro.m4v */,
+				DE8A08C9158D9C910098DD46 /* yoga-posture-final_nnt.png */,
+				DE8A08C3158D9A5B0098DD46 /* 5.reverse-warrior.png */,
+				DE8A08BE158D8F700098DD46 /* yoga_sketch_3_T.png */,
+				DEB8156415841B8E0050521A /* camera@2x.png */,
+				DEB8156215841B770050521A /* clapboard@2x.png */,
+				DEB8156015841B230050521A /* people_@2x.png */,
+				DE312D831583D87B0039B5B4 /* Tadasana.jpg */,
+				DE3D30C8157E0A850089F4D6 /* MakeUp.mov */,
+				DE3D30C6157DFA650089F4D6 /* iPod.m4v */,
+				DE1BD5AF157C9BBE00138188 /* iPure-Info.plist */,
+				DE1BD5B0157C9BBE00138188 /* InfoPlist.strings */,
+				DE1BD5B3157C9BBE00138188 /* main.m */,
+				DE1BD5B5157C9BBE00138188 /* iPure-Prefix.pch */,
+				DE312D7B1583B0030039B5B4 /* introduction.html */,
+				DE312D811583C5F80039B5B4 /* PreKriya.html */,
+				DEB8155D1584173D0050521A /* main.css */,
+				DEB81573158435BB0050521A /* shortKriya.html */,
+				DEB8157515843E5E0050521A /* longKriya.html */,
+				DE7AB389158470A900BC42C8 /* beforeKriyaShort.html */,
+				DE7AB38C158471E400BC42C8 /* beforeKriyaLong.html */,
+				DE7AB38E158471FD00BC42C8 /* afterKriyaShort.html */,
+				DE7AB3901584721400BC42C8 /* afterKriyaLong.html */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE1BD5A2157C9BBE00138188 /* iPure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1BD5C4157C9BBF00138188 /* Build configuration list for PBXNativeTarget "iPure" */;
+			buildPhases = (
+				DE1BD59F157C9BBE00138188 /* Sources */,
+				DE1BD5A0157C9BBE00138188 /* Frameworks */,
+				DE1BD5A1157C9BBE00138188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPure;
+			productName = iPure;
+			productReference = DE1BD5A3157C9BBE00138188 /* iPure.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE1BD59A157C9BBD00138188 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DE1BD59D157C9BBD00138188 /* Build configuration list for PBXProject "iPure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE1BD598157C9BBD00138188;
+			productRefGroup = DE1BD5A4157C9BBE00138188 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE1BD5A2157C9BBE00138188 /* iPure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE1BD5A1157C9BBE00138188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1BD5B2157C9BBE00138188 /* InfoPlist.strings in Resources */,
+				DE1BD5BB157C9BBF00138188 /* MainStoryboard.storyboard in Resources */,
+				DE3D30C7157DFA650089F4D6 /* iPod.m4v in Resources */,
+				DE3D30C9157E0A850089F4D6 /* MakeUp.mov in Resources */,
+				DE312D7C1583B0030039B5B4 /* introduction.html in Resources */,
+				DE312D821583C5F80039B5B4 /* PreKriya.html in Resources */,
+				DE312D841583D87B0039B5B4 /* Tadasana.jpg in Resources */,
+				DEB8155E1584173D0050521A /* main.css in Resources */,
+				DEB8156115841B230050521A /* people_@2x.png in Resources */,
+				DEB8156315841B770050521A /* clapboard@2x.png in Resources */,
+				DEB8156515841B8E0050521A /* camera@2x.png in Resources */,
+				DEB81574158435BB0050521A /* shortKriya.html in Resources */,
+				DEB8157615843E5E0050521A /* longKriya.html in Resources */,
+				DE7AB38A158470A900BC42C8 /* beforeKriyaShort.html in Resources */,
+				DE7AB38D158471E400BC42C8 /* beforeKriyaLong.html in Resources */,
+				DE7AB38F158471FD00BC42C8 /* afterKriyaShort.html in Resources */,
+				DE7AB3911584721400BC42C8 /* afterKriyaLong.html in Resources */,
+				DE8A08BF158D8F700098DD46 /* yoga_sketch_3_T.png in Resources */,
+				DE8A08C4158D9A5B0098DD46 /* 5.reverse-warrior.png in Resources */,
+				DE8A08CA158D9C910098DD46 /* yoga-posture-final_nnt.png in Resources */,
+				DEEB51A615A2B7AA0070545A /* Intro.m4v in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE1BD59F157C9BBE00138188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1BD5B4157C9BBE00138188 /* main.m in Sources */,
+				DE1BD5B8157C9BBF00138188 /* AppDelegate.m in Sources */,
+				DE1BD5BE157C9BBF00138188 /* MasterViewController.m in Sources */,
+				DE1BD5C1157C9BBF00138188 /* DetailViewController.m in Sources */,
+				DEF8866F157F28330035ED67 /* ViewController.m in Sources */,
+				DE312D801583B0BA0039B5B4 /* AllWebViewController.m in Sources */,
+				DEA6553115879E0B004EF13A /* iAdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE1BD5B0157C9BBE00138188 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1BD5B1157C9BBE00138188 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE1BD5B9157C9BBF00138188 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1BD5BA157C9BBF00138188 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE1BD5C2157C9BBF00138188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Niral Trivedi (M27EXS39MC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Niral Trivedi (M27EXS39MC)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "8770FCB7-B556-4B1B-B19A-217101699CCF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9BEBB043-4CBE-46F1-80E9-2EB8BBAED551";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE1BD5C3157C9BBF00138188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Niral Trivedi (M27EXS39MC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Niral Trivedi (M27EXS39MC)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "8770FCB7-B556-4B1B-B19A-217101699CCF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9BEBB043-4CBE-46F1-80E9-2EB8BBAED551";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE1BD5C5157C9BBF00138188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPure/iPure-Prefix.pch";
+				INFOPLIST_FILE = "iPure/iPure-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE1BD5C6157C9BBF00138188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPure/iPure-Prefix.pch";
+				INFOPLIST_FILE = "iPure/iPure-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE1BD59D157C9BBD00138188 /* Build configuration list for PBXProject "iPure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1BD5C2157C9BBF00138188 /* Debug */,
+				DE1BD5C3157C9BBF00138188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1BD5C4157C9BBF00138188 /* Build configuration list for PBXNativeTarget "iPure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1BD5C5157C9BBF00138188 /* Debug */,
+				DE1BD5C6157C9BBF00138188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE1BD59A157C9BBD00138188 /* Project object */;
+}

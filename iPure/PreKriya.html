@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <script language="javascript"> 
+            function toggle(showHideDiv, switchTextDiv) {
+                var ele = document.getElementById(showHideDiv);
+                var text = document.getElementById(switchTextDiv);
+                
+                if(ele.style.display == "block") {
+                    if(ele.id == "myContent1") {
+                        ele.style.display = "none";
+                        text.innerHTML = "Short Term";
+                    }
+                    if(ele.id == "myContent2") {
+                        ele.style.display = "none";
+                        text.innerHTML = "Long Term";
+                    }
+                }
+                else {
+                    ele.style.display = "block";
+                    text.innerHTML = "Hide";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <font size="14">
+        <b>When to do it?</b><br>
+        <ul>
+        <li>This technique should be done in the morning.</li>
+        <li>You should do the kriya on an empty stomach. Drinking water is ok.</li>
+        <li>You can empty your bowels before starting the kriya.</li>
+        <li>It is necessary that the very first process of Shankha-Prakshalana should be carried out only under an adept and experienced Yogacharya.</li>
+        </ul>
+        <b>What do i need?</b><br>
+            
+            
+        <div id="headerDiv1">
+            <a id="myHeader1" href="javascript:toggle('myContent1','myHeader1');" >Short Term</a>
+        </div>
+        <div id="contentDiv1">
+            <div id="myContent1" style="display: none;"><br>
+            <b>1.) FIVE SPECIAL ASANAS</b><br>
+            <p>The five Asanas, which form the core of the practice, are related directly to the 5 alimentary valves. They help to stretch, massage, and relax all parts of the alimentary canal and enhance the cleansing process.<br><br>
+            <b>2.) TADASANA (THE STRETCH POSE)</b><br><br>
+            <img src="Tadasana.jpg" style="float:right;" />
+            <ul>
+            <li>Stand straight, with feet about 10 cms apart, arms by the sides.</li>
+            <li>Breathe in deeply, and raise both hands on the sides of the head, in an upward direction.</li>
+            <li>Interlock your fingers – palms facing towards the sky.</li>
+            <li>Exhale; place the hands on top of the head.</li>
+            <li>Inhale – stretch the arms up over the head and slowly rise up on your toes, stretching and lengthening the abdominal area.</li>
+            <li>Hold the position for a few seconds.</li>
+            <li>Exhale – bring the heels down on the floor and hands on top of the head.</li>
+            <li>This is one round.</li>
+            <li>Repeat 8 times. All 8 rounds should take no more than about 40 – 60 seconds.</li>
+            <li>Tadasana acts mainly on the stomach and stretches the colon.</li>
+            </ul>
+            
+            </div>
+        </div>
+        <div id="headerDiv2">
+            <a id="myHeader2" href="javascript:toggle('myContent2','myHeader2');" >Long Term</a>
+        </div>
+        <div id="contentDiv2">
+            <div id="myContent2" style="display: none;">This is the content that is dynamically being colla.</div>
+        </div>
+        </font>
+        </body>
+</html>
